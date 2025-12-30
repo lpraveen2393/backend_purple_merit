@@ -95,9 +95,8 @@ The frontend application will run on `http://localhost:3000`
 Create a `.env` file in the **backend** directory:
 
 ```env
-PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+JWT_SECRET=somewords
 ```
 
 **Important**: Never commit `.env` files to version control. Add `.env` to your `.gitignore` file.
